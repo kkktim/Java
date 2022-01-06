@@ -8,7 +8,7 @@ public class df {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("점수입력: ");
-		int Score = sc.nextInt();
+		int score = sc.nextInt();
 		
 		System.out.println("입력점수"+score);
 	}
