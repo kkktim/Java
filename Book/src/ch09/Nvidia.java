@@ -2,6 +2,8 @@ package ch09;
 
 public class Nvidia implements GraphicCard {
 	
-	public 
+	public void process() {
+		System.out.println("Nvidia 그래픽 처리");
+	}
 
 }
