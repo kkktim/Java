@@ -26,5 +26,25 @@ class ObjOverride {
 }
 
 public class P286 {
+	public static void main(String[] args) {
+		Obj obj1 = new Obj(100);
+		Obj obj2 = new Obj(100);
+		
+		if(obj1.equals(obj2)) {
+			System.out.println("obj1 °´Ã¼¿Í obj2 °´Ã¼´Â °°À½");
+		}else {
+			System.out.println("obj1 °´Ã¼¿Í obj2 °´Ã¼´Â ´Ù¸§");
+		}
+		
+		Obj obj3 = obj1;
+		
+		if(obj1.equals(obj3)) {
+			System.out.println("obj1 °´Ã¼¿Í obj3 °´Ã¼´Â °°À½");
+		}else {
+			System.out.println("obj1 °´Ã¼¿Í obj3 °´Ã¼´Â ´Ù¸§");
+		}
+		
+		ObjOverride objo1 = new ObjOverride(100);
+	}
 
 }
