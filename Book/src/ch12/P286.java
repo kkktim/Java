@@ -45,6 +45,14 @@ public class P286 {
 		}
 		
 		ObjOverride objo1 = new ObjOverride(100);
+		ObjOverride objo2 = new ObjOverride(100);
+		
+		if (objo1.equals(objo2)) {
+			System.out.println("objo1 °´Ã¼¿Í objo2 °´Ã¼´Â °°À½");
+		}else {
+			System.out.println("objo1 °´Ã¼¿Í objo2 °´Ã¼´Â ´Ù¸§");
+		}
+		
 	}
 
 }
