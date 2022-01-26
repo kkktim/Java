@@ -24,8 +24,14 @@ public class P303 {
 		System.out.println(str.trim()); //앞뒤 공백 제거
 		System.out.println(str.replace(" ", ""));
 		
-		str = String.valueOf(10);
-		str
+		str = String.valueOf(10);  //기본자료형 int를 문자열로 변환
+		str = String.valueOf(10.5);   //기본자료형 double을 문자열로 변환
+		
+		str = "홍길동,이순신,유관순,안중근";
+		String[] arr = str.split(",");  // ,를 구분자로 나눠서 배열로 리턴
+		for(int i=0 ; i<arr.length ; i++) {
+			System.out.println(i+"번 인덱스 값 = "+arr[i]);
+		}
 	}
 
 }
